@@ -15,7 +15,8 @@
     <title>Capstone Project</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- main navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
       <a class="navbar-brand ml-5" href="#">EventMaster</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,19 +43,65 @@
       </div>
     </nav>
 
+    <!-- section for the input form and the main image -->
     <div class="container-fluid">
       <div class="mainpicture position-relative">
+        <h3 class="position-absolute c_text t-50 text-dark font-weight-bolder">EventMaster...Get the lastest Events over the Weekend</h3>
         <img src="./images/mainpict.jpg" class="img-fluid" alt="Responsive image" />
-        <div class="position-absolute center bck_trans px-3 py-3">
+        <div class="position-absolute center t-50 bck_trans px-3 py-3">
           <div class="search">
             <h4 class="">Search by Sport</h4>
             <input type="text" class="w-custom" />
             <button type="submit" class="btn btn-danger mb-2">Search</button>
           </div>
-          <!-- </div> -->
+        </div>
+        <div class="inside_button position-absolute c_button t-50">
+          <button class="btn btn-light btn-lg">How it Works</button>
+        </div>
+      </div>
+
+      <!-- section for the 4 easy steps -->
+      <h1 class="main_header text-uppercase text-center pt-5 my-5">event master always easy to use</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-uppercase text-center my-3">search</h2>
+            <span class="text-justify">Searching for your favorite event is just a few clicks away, for starters you only need to type the sports category and click search. Also you can just click on the icon Events from the search bar and it will display all of the events for the weekend. </span>
+          </div>
+          <div class="col">
+            <h2 class="text-uppercase text-center my-3">location</h2>
+            <span class="text-justify">You will get the location where the event will take place and also the time. This way you can make plans ahead in case you want to tailgate or if you just want to summon your friends at a particular place and enjoy watching the event together</span>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <h2 class="text-uppercase text-center my-3">select</h2>
+            <span class="text-justify">Once you have made up your mind which sport event you will be either wathching or attending, just select it from the list. </span>
+          </div>
+          <div class="col">
+            <h2 class="text-uppercase text-center my-3">details</h2>
+            <span class="text-justify">If you interested in the getting more details about the event you simply click on Details and it will give you several nuggest of information, getting to know a little more on your teams and fantasy players to rule over your friends. </span>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- section for the footer -->
+    <footer class="mt-5 bg-dark">
+      <div class="social">
+        <a href=""> <i class="fab fa-facebook-f fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-twitter fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-instagram fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-google-play fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-youtube fa-lg mr-4"></i></a>
+      </div>
+
+      <div class="legal_links">
+        <h5>
+          <a href="#" class="text-decoration-none text-white font-weight-bold mr-3">Privacy Policy</a>
+          <a href="#" class="text-decoration-none text-white font-weight-bold">Terms of Use</a>
+        </h5>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
