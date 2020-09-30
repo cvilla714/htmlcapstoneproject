@@ -1,3 +1,13 @@
-body {
-  background-color: red;
+.bck_trans {
+  background: rgba(149, 165, 166, 0.5);
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-custom {
+  width: 35vw;
 }

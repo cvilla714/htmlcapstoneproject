@@ -8,10 +8,54 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
     <title>Capstone Project</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand ml-5" href="#">EventMaster</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-search mr-2"></i> Events <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-alt mr-2"></i>About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-rss mr-2"></i>News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-bars mr-2"></i>more</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="mainpicture position-relative">
+        <img src="./images/mainpict.jpg" class="img-fluid" alt="Responsive image" />
+        <div class="position-absolute center bck_trans px-3 py-3">
+          <div class="search">
+            <h4 class="">Search by Sport</h4>
+            <input type="text" class="w-custom" />
+            <button type="submit" class="btn btn-danger mb-2">Search</button>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
