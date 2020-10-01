@@ -16,8 +16,8 @@
   </head>
   <body>
     <!-- main navbar starts here  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <a class="navbar-brand ml-5" href="#">EventMaster</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success h_16">
+      <a class="navbar-brand ml-5" href="">EventMaster</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,11 +25,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-search mr-2"></i> Events <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./search.html"><i class="fas fa-search mr-2"></i> Events <span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user-alt mr-2"></i>About</a>
+            <a class="nav-link" href="#footer"><i class="fas fa-user-alt mr-2"></i>About</a>
           </li>
 
           <li class="nav-item">
@@ -46,13 +46,13 @@
     <!-- section for the input form and the main image -->
     <div class="container-fluid">
       <div class="mainpicture position-relative">
-        <h3 class="position-absolute c_text t-50 text-dark font-weight-bolder">EventMaster...Get the lastest Events over the Weekend</h3>
+        <h3 class="position-absolute c_text t-50 text-dark font-weight-bolder shadow-lg p-3 mb-5 white_trans rounded">EventMaster...Get the lastest Events over the Weekend</h3>
         <img src="./images/mainpict.jpg" class="img-fluid" alt="Responsive image" />
         <div class="position-absolute center t-50 bck_trans px-3 py-3">
           <div class="search">
             <h4 class="">Search by Sport</h4>
             <input type="text" class="w-custom" />
-            <a href="https://www.google.com/">
+            <a href="./search.html">
               <button type="submit" class="btn btn-danger mb-2">Search</button>
             </a>
           </div>
@@ -67,28 +67,56 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2 class="text-uppercase text-center my-3">search</h2>
+            <h2 class="text-uppercase text-center my-3"><i class="fas fa-search mr-3"></i>search</h2>
             <span class="text-justify">Searching for your favorite event is just a few clicks away, for starters you only need to type the sports category and click search. Also you can just click on the icon Events from the search bar and it will display all of the events for the weekend. </span>
           </div>
           <div class="col">
-            <h2 class="text-uppercase text-center my-3">location</h2>
+            <h2 class="text-uppercase text-center my-3"><i class="fas fa-map-marker-alt mr-3"></i>location</h2>
             <span class="text-justify">You will get the location where the event will take place and also the time. This way you can make plans ahead in case you want to tailgate or if you just want to summon your friends at a particular place and enjoy watching the event together</span>
           </div>
           <div class="w-100"></div>
           <div class="col">
-            <h2 class="text-uppercase text-center my-3">select</h2>
+            <h2 class="text-uppercase text-center my-3"><i class="fas fa-hand-pointer mr-3"></i>select</h2>
             <span class="text-justify">Once you have made up your mind which sport event you will be either wathching or attending, just select it from the list. </span>
           </div>
           <div class="col">
-            <h2 class="text-uppercase text-center my-3">details</h2>
+            <h2 class="text-uppercase text-center my-3"><i class="fas fa-info-circle mr-3"></i>details</h2>
             <span class="text-justify">If you interested in the getting more details about the event you simply click on Details and it will give you several nuggest of information, getting to know a little more on your teams and fantasy players to rule over your friends. </span>
           </div>
+        </div>
+      </div>
+
+      <!-- section for the main events -->
+      <div class="container mt-5">
+        <div class="media results mx-auto bg-warning mb-5">
+          <div class="media-body d-flex flex-column align-items-center justify-content-center c_height">
+            <h5 class="mt-0 mb-1 text-capitalize">hundreds of events available to you!</h5>
+            <span class="text-justify px-4">Find the sports event you want to attend to using our services</span>
+          </div>
+          <img src="./images/nbafinals.jpg" class="ml-3 img-fluid c-radious" alt="..." />
+        </div>
+
+        <div class="media results mx-auto bg-secondary mb-5">
+          <div class="media-body d-flex flex-column align-items-center justify-content-center c_height">
+            <h5 class="mt-0 mb-1 text-capitalize">running out of ideas?</h5>
+            <span class="text-justify px-4">Looking for something to watch or an event to attend to with your friends? We give you the power to access everyhting at your fingertips</span>
+          </div>
+          <!-- <img src="./images/nbafinals.jpg" class="ml-3 img-fluid c_radious" alt="..." /> -->
+          <img src="./images/tailgate.jpg" class="ml-3 img-fluid c-radious" alt="..." />
+        </div>
+
+        <div class="media results mx-auto bg-info">
+          <div class="media-body d-flex flex-column align-items-center justify-content-center c_height">
+            <h5 class="mt-0 mb-1 text-capitalize">Rule over your friends!</h5>
+            <span class="text-justify px-4">Stop wasting your precious time going from website to website we we give you details on the event you are looking for and nuggets with valuable information that will put you ahead of the games with your friends</span>
+          </div>
+          <img src="./images/winner.jpg" class="ml-3 img-fluid c-radious" alt="..." />
         </div>
       </div>
     </div>
 
     <!-- section for the footer -->
-    <footer class="mt-5 bg-dark">
+    <footer class="mt-5 bg-dark h_16" id="footer">
       <div class="social">
         <a href=""> <i class="fab fa-facebook-f fa-lg mr-4"></i></a>
         <a href=""> <i class="fab fa-twitter fa-lg mr-4"></i></a>

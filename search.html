@@ -15,7 +15,7 @@
     <title>Search Results</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success h_16">
       <a class="navbar-brand ml-5" href="#">EventMaster</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,46 @@
 
     <!-- section for the results -->
     <div class="container-fluid results">
+      <div class="filter shadow-lg p-3 my-5 bg-white rounded">
+        <h1 class="text-capitalize text-center">Filter by sports, day and venue</h1>
+        <div class="row mb-5">
+          <div class="col-4 px-0">
+            <!-- <label for="pet-select">Filter by sports, day and venue </label> -->
+            <select id="event-select" class="w-100">
+              <option value="">--Please choose an event--</option>
+              <option value="Basketball">Basketball</option>
+              <option value="Football">Football</option>
+              <option value="Baseball">Baseball</option>
+              <option value="UFC">UFC</option>
+              <option value="Soccer">Soccer</option>
+              <option value="Nascar">Nascar</option>
+            </select>
+          </div>
+          <div class="col-4 px-0">
+            <!-- <label for="pet-select">Choose a day:</label> -->
+            <select id="day-select" class="w-100">
+              <option value="">--Please choose the day--</option>
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+              <option value="Twodays">The day after tomororw</option>
+              <option value="Weekend">Over The Weekend</option>
+            </select>
+          </div>
+
+          <div class="col-4 px-0">
+            <select id="venue-select" class="w-100">
+              <option value="">--Please choose a Venue--</option>
+              <option value="Advent">Advent Health Arena</option>
+              <option value="Balaidos">Stadium Balaidos</option>
+              <option value="OldTrafford">Stadium Old Trafford</option>
+              <option value="Talladega">Talladega</option>
+              <option value="Petco">Petco Park</option>
+              <option value="TagetField">Target Field</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
       <div class="card-deck">
         <div class="row">
           <div class="card">
@@ -480,6 +520,24 @@
         </div>
       </div>
     </div>
+
+    <!-- section for the footer -->
+    <footer class="mt-5 bg-dark h_16" id="footer">
+      <div class="social">
+        <a href=""> <i class="fab fa-facebook-f fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-twitter fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-instagram fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-google-play fa-lg mr-4"></i></a>
+        <a href=""> <i class="fab fa-youtube fa-lg mr-4"></i></a>
+      </div>
+
+      <div class="legal_links">
+        <h5>
+          <a href="#" class="text-decoration-none text-white font-weight-bold mr-3">Privacy Policy</a>
+          <a href="#" class="text-decoration-none text-white font-weight-bold">Terms of Use</a>
+        </h5>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

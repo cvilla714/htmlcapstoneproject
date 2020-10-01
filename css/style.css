@@ -3,6 +3,14 @@
   border-radius: 15px;
 }
 
+.white_trans {
+  background: rgba(233, 235, 227, 0.541);
+}
+
+.h_16 {
+  height: 10vh;
+}
+
 .t-50 {
   transform: translate(-50%, -50%);
 }
@@ -25,7 +33,7 @@
   /* transform: translate(-50%, -50%); */
 }
 .w-custom {
-  width: 43vw;
+  width: 40vw;
 }
 
 footer {
@@ -51,6 +59,24 @@ footer .legal_links {
   max-width: 65vw;
 }
 
+.main_results {
+  max-width: 85vw;
+}
+
 .icon_img {
   height: 27vh;
+}
+
+.result_img {
+  height: 85vh;
+}
+
+.c_height {
+  height: 25vh;
+}
+
+.c-radious {
+  border-radius: 50%;
+  width: 21vw;
+  height: 25vh;
 }
