@@ -52,6 +52,5 @@ footer .legal_links {
 }
 
 .icon_img {
-  width: 25%;
-  object-fit: cover;
+  height: 27vh;
 }
