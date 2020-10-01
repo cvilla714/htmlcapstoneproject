@@ -46,3 +46,12 @@ footer .legal_links {
 .fab {
   color: white;
 }
+
+.results {
+  max-width: 65vw;
+}
+
+.icon_img {
+  width: 25%;
+  object-fit: cover;
+}
