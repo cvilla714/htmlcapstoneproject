@@ -80,3 +80,14 @@ footer .legal_links {
   width: 21vw;
   height: 25vh;
 }
+
+.c_width {
+  object-fit: cover;
+  width: 35vw;
+  height: 45vh;
+}
+
+.frame_width {
+  width: 600px;
+  height: 450px;
+}
