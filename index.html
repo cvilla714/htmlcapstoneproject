@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Capstone Project</title>
+  </head>
+  <body>
+    <!-- main nav bar goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light main_nav h_16 nav_line nav_color">
+      <a class="navbar-brand ml-5 ml-lg-0" href="./index.html">EventMaster</a>
+
+      <div class="ul_list">
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item active">
+            <a class="nav-link" href="./search.html"><i class="fas fa-search mx-3 mx-md-4"></i> <span class="nav_gone">Events</span> <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#footer"><i class="fas fa-user-alt mx-4 mx-md-5"></i><span class="nav_gone">About</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-rss mx-4 mx-md-5"></i><span class="nav_gone">News</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-bars mx-4 mx-md-5"></i><span class="nav_gone">more</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- section for the input form and the main image -->
+    <main>
+      <div class="container-fluid">
+        <div class="mainpicture position-relative">
+          <h3 class="position-absolute c_text t-50 text-dark f-large w-custom_title font-weight-bolder shadow-lg px-2 py-2 px-md-4 py-md-3 mb-0 white_trans rounded">EventMaster...Get the lastest Events over the Weekend</h3>
+          <img src="./images/mainpict.jpg" class="img-fluid img_size" alt="Responsive image" />
+          <div class="position-absolute center t-50 bck_trans px-0 py-0 stretch">
+            <div class="search px-2 py-2">
+              <h4 class="">Search by Sport</h4>
+              <form action="./search.html" class="stretch">
+                <input type="text" class="w-custom" />
+                <button type="submit" class="btn btn-danger mb-2">Search</button>
+              </form>
+            </div>
+          </div>
+          <div class="position-absolute c_button t-50">
+            <button class="btn btn-light btn-lg col-sm btn-sm">How it Works</button>
+          </div>
+        </div>
+
+        <!-- section for the 4 easy steps -->
+        <h1 class="text-uppercase text-center pt-3 my-4 my-md-5 my-lg-5">event master always easy to use</h1>
+        <div class="container h-max">
+          <div class="row h-max">
+            <div class="col-sm-12 col-md-6 h_half d-flex flex-column justify-content-center pr-60">
+              <h2 class="text-uppercase text-center d-flex flex-column my-lg-3"><i class="fas fa-search mb-lg-5 mr-3"></i>search</h2>
+              <span class="text-justify">Searching for your favorite event is just a few clicks away, for starters you only need to type the sports category and click search. Also you can just click on the icon Events from the search bar and it will display all of the events for the weekend. </span>
+            </div>
+            <div class="col-sm-12 col-md-6 h_half d-flex flex-column justify-content-center pl-60">
+              <h2 class="text-uppercase text-center d-flex flex-column my-lg-3"><i class="fas fa-map-marker-alt mb-lg-5 mr-3"></i>location</h2>
+              <span class="text-justify">You will get the location where the event will take place and also the time. This way you can make plans ahead in case you want to tailgate or if you just want to summon your friends at a particular place and enjoy watching the event together</span>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-sm-12 col-md-6 h_half d-flex flex-column justify-content-center plr60">
+              <h2 class="text-uppercase text-center d-flex flex-column my-lg-3"><i class="fas fa-hand-pointer mb-lg-5 mr-3"></i>select</h2>
+              <span class="text-justify">Once you have made up your mind which sport event you will be either wathching or attending, just select it from the list. </span>
+            </div>
+            <div class="col-sm-12 col-md-6 h_half d-flex flex-column justify-content-center pl-60">
+              <h2 class="text-uppercase text-center d-flex flex-column my-lg-3"><i class="fas fa-info-circle mb-lg-5 mr-3"></i>details</h2>
+              <span class="text-justify">If you interested in the getting more details about the event you simply click on Details and it will give you several nuggest of information, getting to know a little more on your teams and fantasy players to rule over your friends. </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- section for the main events -->
+        <div class="container-fluid mt-lg-5 mt-md-3 mt-sm-1 p_none">
+          <div class="media bg-danger">
+            <div class="media-body d-flex flex-column justify-content-center align-items-start pl-120 c_height">
+              <h5 class="mt-0 mb-1 text-capitalize">hundreds of events available to you!</h5>
+              <span class="text-justify">Find the sports event you want to attend to using our services</span>
+              <button class="btn btn-light mt-5">Find and Event</button>
+            </div>
+            <img src="./images/nbafinals.jpg" class="ml-3 img-fluid c-radious" alt="nba finals laker vs heat" />
+          </div>
+
+          <div class="media bg-secondary">
+            <div class="media-body d-flex flex-column justify-content-center align-items-start pl-120 c_height">
+              <h5 class="mt-0 mb-1 text-capitalize">running out of ideas?</h5>
+              <span class="text">Looking for something to watch or an event to attend to with your friends? We give you the power to access everyhting at your fingertips</span>
+              <button class="btn btn-light mt-5">Find and Event Near You</button>
+            </div>
+            <img src="./images/tailgate.jpg" class="ml-3 img-fluid c-radious" alt="tailgate prior to thegame" />
+          </div>
+
+          <div class="media bg-primary">
+            <div class="media-body d-flex flex-column justify-content-center align-items-start pl-120 c_height">
+              <h5 class="mt-0 mb-1 text-capitalize">Rule over your friends!</h5>
+              <span class="text pr-60">Stop wasting your precious time going from website to website we we give you details on the event you are looking for and nuggets with valuable information that will put you ahead of the games with your friends</span>
+            </div>
+            <img src="./images/winner.jpg" class="ml-3 img-fluid c-radious" alt="trophy for winners" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- section for the footer -->
+    <footer class="bg-dark h_16_foot" id="footer">
+      <div class="social">
+        <a href=""> <i class="fab fa-facebook-f fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
+        <a href=""> <i class="fab fa-twitter fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
+        <a href=""> <i class="fab fa-instagram fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
+        <a href=""> <i class="fab fa-google-play fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
+        <a href=""> <i class="fab fa-youtube fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
+      </div>
+      <div class="legal_links">
+        <h5>
+          <a href="#" class="text-decoration-none text-white font-weight-bold mr-0">Privacy Policy</a>
+          <a href="#" class="text-decoration-none text-white font-weight-bold">Terms of Use</a>
+        </h5>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
