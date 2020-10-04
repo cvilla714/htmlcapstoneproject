@@ -40,4 +40,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--Inspired on the Mathew Njuguna patashuleKE design https://www.behance.net/gallery/25563385/PatashuleKE"
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+-Inspired on the Mathew Njuguna patashuleKE design -https://www.behance.net/gallery/25563385/PatashuleKE
