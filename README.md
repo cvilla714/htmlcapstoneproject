@@ -22,22 +22,6 @@ over the weeekend.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
-
 👤 **Devkc**
 
 - Github: [@githubhandle](https://github.com/cvilla714)
@@ -56,10 +40,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
--Inspired on the Mathew Njuguna patashuleKE design -https://www.behance.net/gallery/25563385/PatashuleKE
+-Inspired on the Mathew Njuguna patashuleKE design https://www.behance.net/gallery/25563385/PatashuleKE"

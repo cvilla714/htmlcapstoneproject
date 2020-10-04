@@ -14,29 +14,26 @@
     <title>Results Page</title>
   </head>
   <body>
-    <!-- main navbar starts here  -->
-    <nav class="navbar navbar-expand-lg navbar-light nav_color h_16">
-      <a class="navbar-brand ml-5" href="./index.html">EventMaster</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- main nav bar goes here  -->
+    <nav class="navbar navbar-expand-lg navbar-light main_nav h_16 nav_line nav_color">
+      <a class="navbar-brand ml-5 ml-lg-0" href="./index.html">EventMaster</a>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+      <div class="">
+        <ul class="navbar-nav d-flex flex-row">
           <li class="nav-item active">
-            <a class="nav-link" href="./search.html"><i class="fas fa-search mr-2"></i> Events <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./search.html"><i class="fas fa-search mx-3 mx-md-4"></i> <span class="nav_gone">Events</span> <span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#footer"><i class="fas fa-user-alt mr-2"></i>About</a>
+            <a class="nav-link" href="#footer"><i class="fas fa-user-alt mx-4 mx-md-5"></i><span class="nav_gone">About</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-rss mr-2"></i>News</a>
+            <a class="nav-link" href="#"><i class="fas fa-rss mx-4 mx-md-5"></i><span class="nav_gone">News</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-bars mr-2"></i>more</a>
+            <a class="nav-link" href="#"><i class="fas fa-bars mx-4 mx-md-5"></i><span class="nav_gone">more</span></a>
           </li>
         </ul>
       </div>
@@ -47,25 +44,25 @@
       <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="10000">
-            <img src="./images/finals3.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/finals3.jpg" class="d-block w-100 result_img" alt="heat vs lakers logo" />
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="./images/finals1.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/finals1.jpg" class="d-block w-100 result_img" alt="lebron vs robinson" />
           </div>
           <div class="carousel-item">
-            <img src="./images/finals2.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/finals2.jpg" class="d-block w-100 result_img" alt="nba finals collage" />
           </div>
           <div class="carousel-item">
-            <img src="./images/lakers.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/lakers.jpg" class="d-block w-100 result_img" alt="lebron james scoring" />
           </div>
           <div class="carousel-item">
-            <img src="./images/bestduo.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/bestduo.jpg" class="d-block w-100 result_img" alt="lebron and davis " />
           </div>
           <div class="carousel-item">
-            <img src="./images/davis.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/davis.jpg" class="d-block w-100 result_img" alt="anthony davis" />
           </div>
           <div class="carousel-item">
-            <img src="./images/howard.jpg" class="d-block w-100 result_img" alt="..." />
+            <img src="./images/howard.jpg" class="d-block w-100 result_img" alt="howard and lebron" />
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -82,8 +79,8 @@
     <div class="details mx-auto">
       <div class="teams">
         <h2 class="text-center my-4">Teams</h2>
-        <div class="row">
-          <div class="left col-sm-12 col-md-6">
+        <div class="row mx-auto">
+          <div class="left col-sm-12 col-md-6 px-0 my-0">
             <h3 class="text-center my-4">Miami Heat</h3>
             <div class="row mx-0">
               <span class="col-6 text-capitalize text-center font-weight-bold"> regular season record</span><span> 44 wins and 29 loses</span>
@@ -153,7 +150,7 @@
 
     <div class="description">
       <h4 class="text-capitalize text-center my-5">story tale</h4>
-      <div class="row">
+      <div class="row mx-auto">
         <div class="col-sm-12 col-md-12 col-lg-6 text-justify px-5 pt-3">
           <p>
             <span class="px-3">
@@ -177,45 +174,42 @@
             </span>
           </p>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 pr-lg-2 text-center d-flex justify-content-center align-items-center">
-          <!-- <iframe class="c_width" src="https://www.youtube.com/embed/AmwTYudvE80" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <iframe class="c_width" src="https://www.youtube.com/embed/Po3DJzLSSiY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-sm-12 col-md-12 col-lg-6 pr-lg-2 px-0 text-center d-flex justify-content-center align-items-center">
+          <iframe class="c_width" src="https://www.youtube.com/embed/Po3DJzLSSiY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
 
     <div class="form">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column align-items-center">
             <h2 class="text-center text-capitalize">Want to get more detailed innformation?</h2>
             <form class="w-75">
               <div class="form-group">
-                <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+                <label for="formname">Name</label>
+                <input type="text" class="form-control" id="formname" placeholder="Name" />
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2">Email</label>
-                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email" />
+                <label for="formemail">Email</label>
+                <input type="email" class="form-control" id="formemail" placeholder="Email" />
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2">Phone Number</label>
-                <input type="tel" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number" />
+                <label for="formphone">Phone Number</label>
+                <input type="tel" class="form-control" id="formphone" placeholder="Phone Number" />
               </div>
               <button type="button" class="btn btn-primary btn-block">Submit</button>
             </form>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6 text-center px-0 location">
             <h2 class="text-capitalize text-center">Location</h2>
-
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.837395987509!2d-81.37293958457163!3d28.57464509344861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77a9bb5ceec91%3A0x242b355582ac8db9!2sAdventHealth%20Orlando!5e0!3m2!1sen!2sus!4v1601660069654!5m2!1sen!2sus"
-              frameborder="0"
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1751.9228772017848!2d-81.3742059062547!3d28.574394140741685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77a9bb5ceec91%3A0x242b355582ac8db9!2sAdventHealth%20Orlando!5e0!3m2!1sen!2sus!4v1601772889974!5m2!1sen!2sus"
               style="border: 0"
               allowfullscreen=""
               aria-hidden="false"
               tabindex="0"
-              class="frame_widt"
             ></iframe>
           </div>
         </div>
@@ -223,7 +217,7 @@
     </div>
 
     <!-- section for the footer -->
-    <footer class="mt-5 bg-dark h_16" id="footer">
+    <footer class="mt-5 bg-dark h_16_foot" id="footer">
       <div class="social">
         <a href=""> <i class="fab fa-facebook-f fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
         <a href=""> <i class="fab fa-twitter fa-lg pl-2 mr-1 mr-md-3 mr-lg-4 n-mar"></i></a>
