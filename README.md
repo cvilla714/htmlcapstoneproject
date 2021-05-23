@@ -22,11 +22,12 @@ over the weeekend.
 
 ## Getting Started
 
-👤 **Devkc**
+👤 **Cosmel Villalobos**
 
-- Github: [@githubhandle](https://github.com/cvilla714)
-- Twitter: [@twitterhandle](https://twitter.com/kckeyti)
-- Linkedin: [linkedin](https://www.linkedin.com/in/cosmel-villalobos-1900531aa/)
+- Github: [@cvilla714](https://github.com/cvilla714)
+- Twitter: [@kckeyti](https://twitter.com/kckeyti)
+- LinkedIn: [Cosmel Villalobos](https://www.linkedin.com/in/cosvilla/)
+
 
 ## 🤝 Contributing
 
